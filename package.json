@@ -1,0 +1,33 @@
+{
+  "name": "pablitoindublin",
+  "version": "1.0.0",
+  "description": "This is a plain Telegram bot dedicated to the easy viewing of the time between Ireland 🇮🇪 and Uruguay 🇺🇾",
+  "main": "dist/app.js",
+  "scripts": {
+    "lint": "eslint",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fralez/pablitoindublin.git"
+  },
+  "author": "Fralez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fralez/pablitoindublin/issues"
+  },
+  "homepage": "https://github.com/Fralez/pablitoindublin#readme",
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  }
+}
