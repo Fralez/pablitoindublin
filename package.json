@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/Fralez/pablitoindublin#readme",
   "dependencies": {
-    "telegraf": "^4.7.0"
+    "dotenv": "^16.0.0",
+    "telegraf": "^4.7.0",
+    "ts-node-dev": "^1.1.8"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
