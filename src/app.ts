@@ -34,7 +34,7 @@ bot.start((ctx) => {
 bot.command(["pablitoindublin"], (ctx) => {
   return ctx.reply(
     `⌛ Tiempo en Montevideo y Dublin ⌛\n\n🇺🇾 Montevideo: ${getTimezoneTime()}\n🇮🇪 Dublin: ${getTimezoneTime(
-      0
+      1
     )}`
   );
 });
